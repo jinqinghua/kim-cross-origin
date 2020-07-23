@@ -1,5 +1,5 @@
 # Cross-origin resource sharing (CORS) 
-参考文档： [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-cors)
+[Spring Boot 参考文档](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#boot-features-cors)
 
 [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) (CORS) is a [W3C specification](https://www.w3.org/TR/cors/) implemented by [most browsers](https://caniuse.com/#feat=cors) that lets you specify in a flexible way what kind of cross-domain requests are authorized., instead of using some less secure and less powerful approaches such as IFRAME or JSONP.
 
@@ -23,7 +23,7 @@ public class MyConfiguration {
 
 # 配置Cross-Origin的几种方法
 
-参考文档：[Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-cors-controller)
+[Spring MVC 参考文档](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc-cors-controller)
 
 ## 1 注解法 @CrossOrigin 
 - 可在类级别使用，方法级别可以继承（覆盖）
@@ -133,7 +133,8 @@ public class CorsConfig {
 ```
 
 ###  3.2  Spring security 内置了对 CorsFilter 的支持
- [Spring Security] (https://docs.spring.io/spring-security/site/docs/current/reference/html5/#cors)
+
+[Spring Security 参考文档](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#cors)
 
  ```java
  @EnableWebSecurity
