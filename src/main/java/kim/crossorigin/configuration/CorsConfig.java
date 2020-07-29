@@ -28,7 +28,7 @@ public class CorsConfig {
      * <li>Set max age to 1800 seconds (30 minutes).</li>
      * </ul>
      */
-     @Bean
+    @Bean
     public FilterRegistrationBean corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.applyPermitDefaultValues();
